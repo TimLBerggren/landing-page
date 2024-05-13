@@ -65,7 +65,7 @@ a {
 
 .container {
     padding: 50px 20px;
-    background-color: #E5E7EB;
+    background-color: #ffffff;
 }
 
 .mid-section {
@@ -99,20 +99,15 @@ a {
 .fourth-section {
     font-size: 1.2em;
     margin-bottom: 20px;
+    background-color: #ffffff;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background: #1f2937;
     color: #F9FAF8;
     font-size: small;
+    padding: 10px 0;
 }
 
 @media (min-width: 768px) {
@@ -136,5 +131,4 @@ a {
         width: 150px;
         height: 150px;
     }
-
 }
