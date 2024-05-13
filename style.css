@@ -78,7 +78,7 @@ a {
 }
 
 .mid-section img {
-    border: 2px solid #E5E7EB;
+    border: 2px solid #3882f6;
     border-radius: 5px;
     padding: 10px;
     width: 150px;
@@ -94,6 +94,14 @@ a {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+    text-align: left;
+}
+
+.third-section .author {
+    font-size: 16px;
+    color: #1f2937;
+    text-align: right;
+    font-weight: bold;
 }
 
 .fourth-section {
