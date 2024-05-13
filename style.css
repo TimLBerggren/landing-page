@@ -23,6 +23,11 @@ button {
     font-weight: 900;
 }
 
+img {
+    max-width: 5%;
+    max-height: 5%;
+}
+
 ul {
     list-style-type: none;
     display: flex;
