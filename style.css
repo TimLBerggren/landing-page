@@ -108,6 +108,21 @@ a {
     font-size: 1.2em;
     margin-bottom: 20px;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+    color: #E5E7EB;
+}
+
+.fourth-section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3882f6;
 }
 
 .footer {
