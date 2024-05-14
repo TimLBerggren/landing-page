@@ -105,6 +105,19 @@ a {
 }
 
 .fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 36px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+}
+/*
+.fourth-section {
     font-size: 1.2em;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -112,8 +125,8 @@ a {
     justify-content: center;
     align-items: center;
     padding: 5em 13em;
-    color: #E5E7EB;
 }
+*/
 
 .fourth-section .container {
     display: flex;
@@ -123,6 +136,10 @@ a {
     width: 100%;
     border-radius: 10px;
     background-color: #3882f6;
+}
+
+.fourth-section button {
+    border: 2px solid #FFF;
 }
 
 .footer {
