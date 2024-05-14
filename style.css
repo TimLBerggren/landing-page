@@ -85,7 +85,7 @@ a {
 }
 
 .third-section {
-    padding: 50px 20px;
+    padding: 50px 20%;
     background-color: #E5E7EB;
     text-align: center;
 }
@@ -116,24 +116,13 @@ a {
     flex-wrap: wrap;
     color: #E5E7EB;
 }
-/*
-.fourth-section {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5em 13em;
-}
-*/
 
 .fourth-section .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 3em;
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     background-color: #3882f6;
 }
