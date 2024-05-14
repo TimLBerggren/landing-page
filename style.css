@@ -68,7 +68,7 @@ a {
     background-color: #ffffff;
 }
 
-.mid-section {
+.second-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +77,7 @@ a {
     font-weight: bold;
 }
 
-.mid-section img {
+.second-section img {
     border: 2px solid #3882f6;
     border-radius: 5px;
     padding: 10px;
@@ -151,12 +151,12 @@ a {
         border-radius: 5px;
     }
 
-    .mid-section {
+    .second-section {
         flex-direction: row;
         justify-content: center;
     }
 
-    .mid-section img {
+    .second-section img {
         width: 150px;
         height: 150px;
     }
