@@ -40,9 +40,11 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    max-width: 50%;
     margin: 50px 0;
-}
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 20%;
+    }
 
 .content title {
     font-size: 1.2em;
@@ -52,6 +54,19 @@ a {
 .content text {
     font-size: 1.2em;
     color: #E5E7EB;
+}
+
+.content .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.content .image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
 }
 
 .sign-up {
@@ -94,7 +109,15 @@ a {
     text-align: center;
     padding: 5% 15%;
     font-size: small;
+}
 
+.second-section img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
 }
 
 .third-section {
@@ -150,26 +173,4 @@ a {
     color: #F9FAF8;
     font-size: small;
     padding: 10px 0;
-}
-
-@media (min-width: 768px) {
-    .content {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .content img {
-        width: 20%;
-        border-radius: 5px;
-    }
-
-    .second-section img {
-        width: 150px;
-        height: 150px;
-        border: 2px solid #3882f6;
-        border-radius: 5px;
-        padding: 10px;
-        width: 150px;
-    }
 }
