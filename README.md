@@ -1,4 +1,6 @@
 # landing-page
+Preview the page: https://timlberggren.github.io/landing-page/
+
 ## Overview
 This project is a part of my journey with The Odin Project, where I recreated an entire web page based on a design provided by them. The primary goal was to replicate the layout and design of the provided images as closely as possible, while also gaining hands-on experience with HTML, CSS, and version control using Git and GitHub.
 
